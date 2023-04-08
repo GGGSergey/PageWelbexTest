@@ -1,0 +1,316 @@
+@media screen and (max-width: 320px) {
+    body {
+        width: 320px;
+    }
+
+    header {
+        width: 320px;
+        height: 55px;
+    }
+
+    main {
+        width: 320px;
+        height: 445px;
+        background-image: url("@img/noise.png");
+    }
+
+    footer {
+        width: 320px;
+        height: 620px;
+        bottom: 0;
+    }
+
+    .logo {
+        display: none;
+    }
+
+    .menu {
+        position: fixed;
+        box-sizing: border-box;
+        width: 320px;
+        height: 55px;
+        padding: 0;
+        left: 0px;
+        top: 0px;
+        background-color: $bg-color;
+        z-index: 3;
+
+        &__list {
+            position: absolute;
+            width: 304px;
+            height: 15px;
+            left: 0px;
+            top: 0px;
+            padding: 20px 8px;
+            margin: 0;
+
+            li:last-of-type {
+                display: none;
+            }
+        }
+
+        &__item {
+            font-size: 12px;
+            line-height: 15px;
+            text-transform: uppercase;
+            color: $main-color;
+        }
+
+        &__link {
+            font-family: $inter;
+            font-style: normal;
+            font-weight: 500;
+            font-size: 12px;
+            line-height: 15px;
+            text-transform: uppercase;
+            color: $main-color;
+        }
+    }
+
+    .contacts {
+        &__text {
+            font-size: 14px;
+            line-height: 17px;
+            font-style: normal;
+            font-weight: 400;
+        }
+    }
+
+    .contacts_top {
+        display: none;
+    }
+
+    .contacts__social_top,
+    .contacts__social_bottom {
+        margin: 8px 0 10px;
+    }
+
+    .contacts_bottom {
+        align-items: flex-start;
+    }
+
+    .content {
+        width: 306px;
+        height: 445px;
+        align-items: flex-start;
+        flex-direction: column;
+        margin: 0;
+        padding: 0 0 0 14px;
+        background: radial-gradient(
+            238.53% 189.02% at 3.2% 3.49%,
+            rgba(255, 246, 233, 0.1) 0%,
+            rgba(26, 29, 35, 0.1) 26.62%,
+            rgba(26, 29, 35, 0.1) 52.1%,
+            rgba(26, 29, 35, 0.01) 70.17%,
+            rgba(26, 29, 35, 0) 100%
+        );
+        backdrop-filter: blur(7.5px);
+
+        &__item_main {
+            width: 272px;
+            height: 191px;
+            padding-top: 40px;
+        }
+
+        &__item {
+            max-width: 272px;
+        }
+
+        &__item:last-of-type {
+            padding-top: 45px;
+            align-items: flex-start;
+        }
+
+        &__title_main {
+            width: 272px;
+            height: 132px;
+            font-size: 36px;
+            line-height: 44px;
+            padding: 0;
+
+            span {
+                font-size: 36px;
+                line-height: 44px;
+            }
+        }
+
+        &__discription {
+            width: 271px;
+            height: 44px;
+            margin: 15px 0 0 0;
+        }
+
+        &__title {
+            text-align: left;
+
+            span {
+                text-transform: lowercase;
+            }
+        }
+
+        &__list-desktop {
+            display: none;
+        }
+
+        &__list-mobile {
+            display: grid;
+            grid-template-columns: repeat(2, minmax(109px, auto));
+            grid-row-gap: 14px;
+            grid-column-gap: 15px;
+            justify-content: flex-start;
+            margin-top: 20px;
+            margin-bottom: 59px;
+        }
+
+        &__list-item {
+            height: 16px;
+        }
+
+        &__list-title {
+            height: 16px;
+            font-family: $montserrat;
+            font-weight: 400;
+            font-size: 13px;
+            line-height: 16px;
+            margin-bottom: 0;
+            text-align: left;
+
+            span {
+                vertical-align: middle;
+            }
+        }
+
+        &__button {
+            display: none;
+        }
+    }
+
+    .footer {
+        position: absolute;
+        width: 306px;
+        height: 620px;
+        flex-direction: column;
+        padding: 0 0 0 14px;
+        margin: 0;
+        background-color: $bg-color;
+        z-index: 3;
+
+        &__nav {
+            padding-top: 25px;
+        }
+
+        &__menu:last-of-type {
+            .footer__list {
+                grid-template-columns: 100px 123px;
+                grid-column-gap: 48px;
+            }
+        }
+
+        &__item {
+            font-size: 14px;
+            line-height: 17px;
+        }
+
+        &__title {
+            font-size: 12px;
+            line-height: 15px;
+            margin: 20px 0 20px 0;
+        }
+
+        &__contacts {
+            .footer__title {
+                text-align: left;
+            }
+        }
+
+        &__copyright {
+            text-align: left;
+            margin: 50px 0 5px;
+        }
+
+        &__copyright-link {
+            text-align: left;
+            margin-bottom: 60px;
+        }
+    }
+
+    .balls {
+        padding: 0;
+
+        .puple-ball {
+            width: 40px;
+            height: 40px;
+            left: 296px;
+            top: 236px;
+        }
+
+        .red-ball {
+            width: 43px;
+            height: 43px;
+            left: 29px;
+            top: 402px;
+            // display: none;
+        }
+
+        .red-ball_small {
+            width: 18px;
+            height: 18px;
+            left: 278px;
+            top: 563px;
+        }
+
+        .yellow-ball {
+            box-sizing: border-box;
+            position: absolute;
+            width: 25px;
+            height: 25px;
+            left: 46px;
+            top: 629px;
+            transform: rotate(90deg);
+        }
+
+        .ellipse {
+            background: radial-gradient(
+                84.78% 84.78% at 0% 11.96%,
+                rgba(255, 233, 203, 0.568) 0%,
+                rgba(184, 131, 18, 0.448) 100%
+            );
+            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+                inset -4px 4px 7px rgba(255, 255, 255, 0.25);
+            backdrop-filter: blur(2.5px);
+            transform: matrix(0, 1, 1, 0, 0, 0);
+        }
+
+        .rectangle {
+            background: url("@img/rectangle.png");
+            mix-blend-mode: overlay;
+            opacity: 0.05;
+            border-radius: 29px;
+            transform: rotate(90deg);
+        }
+
+        .puple-light {
+            left: 258px;
+            top: 107px;
+            display: none;
+        }
+
+        .red-light {
+            width: 211px;
+            height: 210px;
+            left: -55px;
+            top: 241px;
+        }
+
+        .yellow-light {
+            position: absolute;
+            width: 200px;
+            height: 200px;
+            left: -66px;
+            top: 519px;
+            background: #fcb045;
+            opacity: 0.4;
+            filter: blur(196px);
+        }
+    }
+}

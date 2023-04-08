@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    @@include('html/head.html',{ "title":"Welbex" })
+    <body>
+        @@include('html/header.html',{})
+        <main>
+            <div class="balls">
+                <div class="puple-ball"></div>
+                <div class="red-ball"></div>
+                <div class="red-ball_small"></div>
+                <div class="yellow-ball" id="mobile"></div>
+                <div class="ellipse" id="mobile"></div>
+                <div class="rectangle" id="mobile"></div>
+                <div class="puple-light"></div>
+                <div class="red-light"></div>
+                <div class="yellow-light" id="mobile"></div>
+            </div>
+            <section class="content">
+                <section class="content__item_main">
+                    <h2 class="content__title_main">
+                        Зарабатывайте больше <span>с WELBEX</span>
+                    </h2>
+                    <p class="content__discription">
+                        Развиваем и контролируем продажи за вас
+                    </p>
+                </section>
+                <section class="content__item">
+                    <h4 class="content__title">
+                        Вместе с <span>бесплатной</span>
+                        <span>консультацией</span> мы дарим:
+                    </h4>
+                    <ul class="content__list-desktop">
+                        <li class="content__list-item">
+                            <h4 class="content__list-title">Виджеты</h4>
+                            <p class="content__list-discription">
+                                30 готовых решений
+                            </p>
+                        </li>
+                        <li class="content__list-item">
+                            <h4 class="content__list-title">Dashboard</h4>
+                            <p class="content__list-discription">
+                                с показателями вашего бизнеса
+                            </p>
+                        </li>
+                        <li class="content__list-item">
+                            <h4 class="content__list-title">Skype Аудит</h4>
+                            <p class="content__list-discription">
+                                отдела продаж и CRM системы
+                            </p>
+                        </li>
+                        <li class="content__list-item">
+                            <h4 class="content__list-title">35 дней</h4>
+                            <p class="content__list-discription">
+                                использования CRM
+                            </p>
+                        </li>
+                    </ul>
+                    <ul class="content__list-mobile">
+                        <li class="content__list-item">
+                            <h4 class="content__list-title">
+                                <span
+                                    ><img src="@img/line.png" alt="line"
+                                /></span>
+                                Skype Аудит
+                            </h4>
+                        </li>
+                        <li class="content__list-item">
+                            <h4 class="content__list-title">
+                                <span
+                                    ><img src="@img/line.png" alt="line"
+                                /></span>
+                                30 виджетов
+                            </h4>
+                        </li>
+                        <li class="content__list-item">
+                            <h4 class="content__list-title">
+                                <span
+                                    ><img src="@img/line.png" alt="line"
+                                /></span>
+                                Dashboard
+                            </h4>
+                        </li>
+                        <li class="content__list-item">
+                            <h4 class="content__list-title">
+                                <span
+                                    ><img src="@img/line.png" alt="line"
+                                /></span>
+                                Месяц аmoCRM
+                            </h4>
+                        </li>
+                    </ul>
+                    <button class="content__button">
+                        Получить консультацию
+                    </button>
+                </section>
+            </section>
+        </main>
+        @@include('html/footer.html',{})
+        <script src="js/app.min.js"></script>
+    </body>
+</html>

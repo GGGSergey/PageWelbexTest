@@ -1,0 +1,34 @@
+.menu__hidden {
+    position: absolute;
+    width: 288px;
+    height: 24px;
+    left: 16px;
+    top: -22px;
+    display: flex;
+    justify-content: space-between;
+    z-index: 3;
+
+    .logo__hidden {
+        width: 130px;
+        height: 20px;
+
+        .logo__image-hidden {
+            width: 129px;
+            height: 19px;
+        }
+    }
+
+    .contacts__social-hidden {
+        width: 100px;
+        height: 24px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .contacts__link-hidden {
+        width: 20px;
+        height: 20px;
+        padding: 2px 0;
+        cursor: pointer;
+    }
+}

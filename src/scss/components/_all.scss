@@ -1,0 +1,31 @@
+@import "./variables";
+@import "./menu";
+@import "./logo";
+@import "./main";
+@import "./contacts";
+@import "./footer";
+@import "./balls";
+@import "./mobile";
+@import "./hidden";
+
+#mobile {
+    display: none;
+
+    @media screen and (max-width: 320px) {
+        display: block;
+    }
+}
+
+#hidden {
+    display: none;
+
+    @media screen and (max-width: 320px) {
+        display: flex;
+    }
+}
+
+#desktop {
+    @media screen and (max-width: 320px) {
+        display: none;
+    }
+}

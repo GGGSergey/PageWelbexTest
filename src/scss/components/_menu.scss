@@ -1,0 +1,31 @@
+.menu {
+    display: flex;
+    position: absolute;
+    width: 1140px;
+    height: 73px;
+    padding: 0 150px;
+    top: 46px;
+    vertical-align: middle;
+    margin: 0 auto;
+
+    &__list {
+        display: flex;
+        width: 503px;
+        height: 19px;
+        justify-content: space-between;
+        margin: 15px 137px 39px 52px;
+        padding: 0;
+        z-index: 1;
+    }
+
+    &__item {
+        font-family: $inter;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 19px;
+        color: $main-color;
+        list-style-type: none;
+        cursor: pointer;
+    }
+}
