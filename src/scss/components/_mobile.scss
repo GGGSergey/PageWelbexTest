@@ -1,4 +1,4 @@
-@media screen and (max-width: 320px) {
+@media screen and (max-width: 768px) {
     body {
         width: 320px;
     }
@@ -30,8 +30,9 @@
         width: 320px;
         height: 55px;
         padding: 0;
-        left: 0px;
+        // left: 0px;
         top: 0px;
+        margin: 0 auto;
         background-color: $bg-color;
         z-index: 3;
 

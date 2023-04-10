@@ -11,7 +11,7 @@
 #mobile {
     display: none;
 
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 768px) {
         display: block;
     }
 }
@@ -19,13 +19,13 @@
 #hidden {
     display: none;
 
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 768px) {
         display: flex;
     }
 }
 
 #desktop {
-    @media screen and (max-width: 320px) {
+    @media screen and (max-width: 768px) {
         display: none;
     }
 }
